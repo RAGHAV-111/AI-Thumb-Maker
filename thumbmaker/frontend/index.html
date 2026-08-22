@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>ThumbMaker</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ThumbMaker</h1>
+    <p>Generate AI thumbnails and store them on ImageKit</p>
+  </header>
+
+  <main>
+    <form id="generate-form">
+      <label>
+        Title
+        <input type="text" id="title" required placeholder="My video title" />
+      </label>
+      <label>
+        Prompt
+        <textarea id="prompt" required placeholder="Describe the thumbnail you want"></textarea>
+      </label>
+      <button type="submit">Generate</button>
+    </form>
+
+    <p id="status"></p>
+
+    <section id="gallery"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
