@@ -17,10 +17,3 @@ A Thumbnail row is saved to SQLite with title, prompt, and that image URL, and r
 Frontend re-fetches /thumbnails and renders the gallery (each card: image, title, Edit/Download/Delete buttons).
 The in-browser photo editor (client-side only, in script.js)
 Clicking Edit opens a <canvas>-based editor — no AI involved here:
-
-Brightness/contrast/saturation/grayscale via CSS filter on canvas draw.
-Rotate/flip via canvas transforms.
-Crop by dragging a rect, then getImageData/putImageData into a new canvas.
-Draggable text overlays drawn with fillText.
-Save sends the edited canvas as a base64 PNG (toDataURL) via PUT /thumbnails/{id}/image.
-Download just triggers a local file save of the canvas.
