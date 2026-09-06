@@ -1,3 +1,4 @@
+
 <img width="1930" height="614" alt="image" src="https://github.com/user-attachments/assets/9bdec982-63a4-4e77-8286-27d8652f05d5" />
 <img width="1118" height="1024" alt="image" src="https://github.com/user-attachments/assets/b8699041-5ec7-4081-b68d-b629c8a7f503" />
 
@@ -17,3 +18,7 @@ A Thumbnail row is saved to SQLite with title, prompt, and that image URL, and r
 Frontend re-fetches /thumbnails and renders the gallery (each card: image, title, Edit/Download/Delete buttons).
 The in-browser photo editor (client-side only, in script.js)
 Clicking Edit opens a <canvas>-based editor — no AI involved here:
+
+<img width="816" height="1056" alt="Main@1x (1)" src="https://github.com/user-attachments/assets/179e3b8a-1c83-4c1a-9b66-b894b38896ac" />
+<img width="816" height="1056" alt="Conversation@1x (1)" src="https://github.com/user-attachments/assets/2bdb9ea1-1f9d-4fa5-95d6-2eb50a0c502d" />
+<img width="816" height="1056" alt="Scoring@1x (1)" src="https://github.com/user-attachments/assets/04ca4ad7-0b61-4c3b-b056-bf433ef4dffb" />
